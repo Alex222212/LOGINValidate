@@ -13,8 +13,10 @@ export function removeErr(el){
         parent.querySelector('.invalid-feedback').remove()
     }
 }
+export function changeForm(form){
+
+}
 function errorMsg(el) {
-    console.log(el.id ==='email');
     if(el.id ==='email'){
         return `<div class="invalid-feedback">
         Пожалуйста, введите E-mail
